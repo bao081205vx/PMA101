@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+}
+
+.navbar {
+    background-color: #003B6F; /* Màu bạn chọn trong Figma */
+}
+
+.footer {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
