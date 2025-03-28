@@ -1,24 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fce4ec;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #FFF; 
+    color: #333;
 }
 
 .navbar {
-    background-color: #003B6F; /* Màu bạn chọn trong Figma */
+    background-color: #FF4081; /* Hồng đậm */
+    color: white;
+    padding: 15px;
+    font-weight: bold;
 }
 
-.footer {
-    background-color: #ff4081;
+.btn-primary {
+    background-color: #E60073; /* Màu hồng đậm */
     color: white;
-    padding: 20px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #C6005C;
+}
+
+.btn-warning {
+    background-color: #FFD54F; /* Màu vàng */
+    color: #333;
+    border-radius: 8px;
+}
+
+.btn-danger {
+    background-color: #E53935; /* Màu đỏ */
+    color: white;
+    border-radius: 8px;
+}
+
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #FF4081;
+    color: white;
     text-align: center;
 }
 
+.table tr:nth-child(even) {
+    background-color: #FFF5FA; /* Xen kẽ màu hồng nhạt */
+}
+
+.table tr:hover {
+    background-color: #FFEBEE; /* Hover nhẹ */
+}
+
+.footer {
+    background-color: #FF4081;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.input:focus, textarea:focus, select:focus {
+    border-color: #FF4081; 
+    box-shadow: 0 0 5px rgba(255, 64, 129, 0.5);
+    outline: none;
+}
+.label {
+    color: #FF4081; /* Hồng đậm */
+    font-weight: bold;
+}
+/* Đổi màu tiêu đề bảng */
+.table thead th {
+    color: white !important; /* Chữ trắng để tương phản với nền */
+    background-color: #FF4081; /* Giữ nền hồng đậm */
+    font-weight: bold;
+    text-align: center;
+}
+/* sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFC0CB; /* Hồng nhạt */
+    padding-top: 20px;
+}
+
+/* Tiêu đề trong sidebar */
+.sidebar h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Giữ màu chữ dễ đọc */
+}
+
+/* Các mục trong sidebar */
+.sidebar .nav-item {
+    padding: 10px;
+    border-bottom: 1px solid #FF69B4; /* Viền màu hồng đậm hơn */
+}
+
+/* Liên kết trong sidebar */
+.sidebar .nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    color: black; /* Chữ đen để dễ đọc trên nền hồng */
+}
+
+/* Hover hiệu ứng */
+.sidebar .nav-item a:hover {
+    background-color: #FF69B4; /* Hồng đậm khi hover */
+    color: white;
+}
+.sidebar.collapsed {
+    width: 60px; /* Giảm kích thước */
+    transition: width 0.3s ease-in-out;
+}
+
+/* Ẩn chữ khi sidebar thu nhỏ */
+.sidebar.collapsed h4,
+.sidebar.collapsed .nav-item a {
+    display: none;
+}
+.content.expanded {
+    margin-left: 60px; 
+    transition: margin-left 0.3s ease-in-out;
+}
+
+
+/* nội dung  */
+.content {
+    margin-left: 200px; /* Điều chỉnh bằng đúng chiều rộng sidebar */
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+
+}
+.content.expanded {
+    margin-left: 60px; /* Khi sidebar thu nhỏ, nội dung mở rộng */
+}
 .card {
-    border-radius: 10px;
-    transition: 0.3s;
+    border-radius: 12px;  /* Bo tròn góc */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+    transition: transform 0.2s ease-in-out; /* Hiệu ứng hover */
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px); /* Nhấn nổi lên khi di chuột */
 }
+
+.card-body {
+    text-align: center; /* Căn giữa nội dung */
+}
+.h2 {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif; /* Font chữ hiện đại hơn */
+}
+
+
+
+
+

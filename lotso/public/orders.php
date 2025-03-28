@@ -1,11 +1,14 @@
 <?php
 include '../config/db.php';
 include '../templates/header.php';
+include '../templates/sidebar.php';
+
 
 $stmt = $conn->query("SELECT orders.*, users.username FROM orders 
                       JOIN users ON orders.user_id = users.id");
 $orders = $stmt->fetchAll();
 ?>
+<script src="js/main.js"></script>
 
 <div class="container mt-5">
     <h2>Quản lý Đơn hàng</h2>

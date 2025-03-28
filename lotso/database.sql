@@ -53,3 +53,15 @@ INSERT INTO orders (user_id, total_price, status) VALUES
 (2, 150.00, 'completed'),
 (3, 180.00, 'pending'),
 (2, 130.00, 'processing');
+
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    slug VARCHAR(255) UNIQUE NOT NULL,
+    description TEXT,
+    image VARCHAR(255),
+    status TINYINT(1) DEFAULT 1,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
