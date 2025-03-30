@@ -1,10 +1,13 @@
 <?php
 include '../config/db.php';
 include '../templates/header.php';
+include '../templates/sidebar.php';
+
 
 $stmt = $conn->query("SELECT * FROM users");
 $users = $stmt->fetchAll();
 ?>
+<script src="js/main.js"></script>
 
 <div class="container mt-5">
     <h2>Quản lý Người dùng</h2>
