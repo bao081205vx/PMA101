@@ -1,0 +1,37 @@
+RewriteEngine On
+
+# Allow CORS
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type"
+
+# Handle OPTIONS method
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+# Rewrite API URLs
+RewriteRule ^api/products/?$ api/products.php [NC,L]
+RewriteRule ^api/products/([0-9]+)/?$ api/products.php?id=$1 [NC,L]
+
+RewriteRule ^api/categories/?$ api/categories.php [NC,L]
+RewriteRule ^api/categories/([0-9]+)/?$ api/categories.php?id=$1 [NC,L]
+
+RewriteRule ^api/users/?$ api/users.php [NC,L]
+RewriteRule ^api/users/([0-9]+)/?$ api/users.php?id=$1 [NC,L]
+
+RewriteRule ^api/orders/?$ api/orders.php [NC,L]
+RewriteRule ^api/orders/([0-9]+)/?$ api/orders.php?id=$1 [NC,L]
+
+RewriteRule ^api/discounts/?$ api/discounts.php [NC,L]
+RewriteRule ^api/discounts/([0-9]+)/?$ api/discounts.php?id=$1 [NC,L]
+RewriteRule ^api/discounts/code/([^/]+)/?$ api/discounts.php?code=$1 [NC,L]
+
+RewriteRule ^api/posts/?$ api/posts.php [NC,L]
+RewriteRule ^api/posts/([0-9]+)/?$ api/posts.php?id=$1 [NC,L]
+
+RewriteRule ^api/comments/?$ api/comments.php [NC,L]
+RewriteRule ^api/comments/([0-9]+)/?$ api/comments.php?id=$1 [NC,L]
+RewriteRule ^api/comments/post/([0-9]+)/?$ api/comments.php?post_id=$1 [NC,L]
+
+# Handle 404 errors
+ErrorDocument 404 /404.php

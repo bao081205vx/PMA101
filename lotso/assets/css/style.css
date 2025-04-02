@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.logo-text .brand-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FF4081 !important;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.logo-text .brand-desc {
+    font-size: 14px;
+    color: #495057;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Main Layout */
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #FF4081 !important;
+    min-height: 100vh;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    width: 16.666667%;
+    z-index: 999;
+}
+
+.sidebar .nav-link {
+    color: #fff !important;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin: 5px 15px;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+.sidebar .nav-link.active {
+    background-color: #fff !important;
+    color: #FF4081 !important;
+    font-weight: 600;
+}
+
+/* Content */
+.content {
+    margin-left: 16.666667%;
+    padding: 20px 40px !important;
+    width: 83.333333% !important;
+}
+
+/* Tables */
+.table thead th,
+.table th {
+    background-color: #FF4081 !important;
+    color: #fff !important;
+    font-weight: 600;
+    border-color: #FF4081;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FF4081 !important;
+    border-color: #FF4081 !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background-color: #f50057 !important;
+    border-color: #f50057 !important;
+}
+
+.btn-outline-primary {
+    color: #FF4081 !important;
+    border-color: #FF4081 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #FF4081 !important;
+    border-color: #FF4081 !important;
+    color: #fff !important;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: #FF4081 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.25) !important;
+}
+
+/* Cards */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #FF4081 !important;
+    color: #fff !important;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 15px 20px;
+}
+
+/* Modals */
+.modal-header {
+    background-color: #FF4081 !important;
+    color: #fff !important;
+    border-bottom: none;
+}
+
+.modal-header .btn-close {
+    color: #fff;
+}
+
+/* Pagination */
+.pagination .page-item.active .page-link {
+    background-color: #FF4081 !important;
+    border-color: #FF4081 !important;
+}
+
+.pagination .page-link {
+    color: #FF4081 !important;
+}
+
+.pagination .page-link:hover {
+    background-color: #f50057 !important;
+    border-color: #f50057 !important;
+    color: #fff !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 60px;
+        padding: 20px 0;
+    }
+
+    .sidebar .nav-link {
+        padding: 12px 15px;
+        margin: 5px 10px;
+    }
+
+    .sidebar .nav-link span {
+        display: none;
+    }
+
+    .sidebar .nav-link i {
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    .content {
+        margin-left: 60px;
+        width: calc(100% - 60px) !important;
+        padding: 20px !important;
+    }
+}
