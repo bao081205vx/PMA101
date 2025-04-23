@@ -1,0 +1,270 @@
+[12-Apr-2025 13:29:51 UTC] === New Login Attempt ===
+[12-Apr-2025 13:29:51 UTC] Email input: hungbiuu@gmail.com
+[12-Apr-2025 13:29:51 UTC] Password length: 11
+[12-Apr-2025 13:29:51 UTC] Login attempt - Email: hungbiuu@gmail.com
+[12-Apr-2025 13:29:51 UTC] POST data received: Array
+(
+    [email] => hungbiuu@gmail.com
+    [password] => Biu17052005
+)
+
+[12-Apr-2025 13:29:51 UTC] Attempting login for email: hungbiuu@gmail.com
+[12-Apr-2025 13:29:51 UTC] Found user in database:
+[12-Apr-2025 13:29:51 UTC] Database email: hungbiuu@gmail.com
+[12-Apr-2025 13:29:51 UTC] Database password hash: $2y$10$1Qj...
+[12-Apr-2025 13:29:51 UTC] User found in database
+[12-Apr-2025 13:29:51 UTC] User details: Array
+(
+    [id] => 4
+    [username] => hbiu1705
+    [email] => hungbiuu@gmail.com
+    [password] => $2y$10$1QjbF7.UMXJ3SdRRJhh0x.ROJBYBsoJPNDbmuH.m8R9ZqEiNmUvgy
+    [role] => customer
+)
+
+[12-Apr-2025 13:29:51 UTC] User role: customer
+[12-Apr-2025 13:29:51 UTC] Password verify result: false
+[12-Apr-2025 13:31:14 UTC] === New Login Attempt ===
+[12-Apr-2025 13:31:14 UTC] Email input: ahihi@gmail.com
+[12-Apr-2025 13:31:14 UTC] Password length: 6
+[12-Apr-2025 13:31:14 UTC] Login attempt - Email: ahihi@gmail.com
+[12-Apr-2025 13:31:14 UTC] POST data received: Array
+(
+    [email] => ahihi@gmail.com
+    [password] => 123456
+)
+
+[12-Apr-2025 13:31:14 UTC] Attempting login for email: ahihi@gmail.com
+[12-Apr-2025 13:31:14 UTC] Found user in database:
+[12-Apr-2025 13:31:14 UTC] Database email: ahihi@gmail.com
+[12-Apr-2025 13:31:14 UTC] Database password hash: $2y$10$5tN...
+[12-Apr-2025 13:31:14 UTC] User found in database
+[12-Apr-2025 13:31:14 UTC] User details: Array
+(
+    [id] => 5
+    [username] => ahihi
+    [email] => ahihi@gmail.com
+    [password] => $2y$10$5tNXTGxXO9FPd5XVfxog.O27SQhnIBfLkqgtKFngkoDZ05ZibbGKi
+    [role] => customer
+)
+
+[12-Apr-2025 13:31:14 UTC] User role: customer
+[12-Apr-2025 13:31:14 UTC] Password verify result: true
+[12-Apr-2025 13:52:10 UTC] === New Login Attempt ===
+[12-Apr-2025 13:52:10 UTC] Email input: ahihi@gmail.com
+[12-Apr-2025 13:52:10 UTC] Password length: 6
+[12-Apr-2025 13:52:10 UTC] Login attempt - Email: ahihi@gmail.com
+[12-Apr-2025 13:52:10 UTC] POST data received: Array
+(
+    [email] => ahihi@gmail.com
+    [password] => 123456
+)
+
+[12-Apr-2025 13:52:10 UTC] Attempting login for email: ahihi@gmail.com
+[12-Apr-2025 13:52:10 UTC] Found user in database:
+[12-Apr-2025 13:52:10 UTC] Database email: ahihi@gmail.com
+[12-Apr-2025 13:52:10 UTC] Database password hash: $2y$10$5tN...
+[12-Apr-2025 13:52:10 UTC] User found in database
+[12-Apr-2025 13:52:10 UTC] User details: Array
+(
+    [id] => 5
+    [username] => ahihi
+    [email] => ahihi@gmail.com
+    [password] => $2y$10$5tNXTGxXO9FPd5XVfxog.O27SQhnIBfLkqgtKFngkoDZ05ZibbGKi
+    [role] => customer
+)
+
+[12-Apr-2025 13:52:10 UTC] User role: customer
+[12-Apr-2025 13:52:10 UTC] Password verify result: true
+[12-Apr-2025 14:51:57 UTC] === New Login Attempt ===
+[12-Apr-2025 14:51:57 UTC] Email input: john@example.com
+[12-Apr-2025 14:51:57 UTC] Password length: 11
+[12-Apr-2025 14:51:57 UTC] Login attempt - Email: john@example.com
+[12-Apr-2025 14:51:57 UTC] POST data received: Array
+(
+    [email] => john@example.com
+    [password] => password123
+)
+
+[12-Apr-2025 14:51:57 UTC] Attempting login for email: john@example.com
+[12-Apr-2025 14:51:57 UTC] Found user in database:
+[12-Apr-2025 14:51:57 UTC] Database email: john@example.com
+[12-Apr-2025 14:51:57 UTC] Database password hash: ef92b778ba...
+[12-Apr-2025 14:51:57 UTC] User found in database
+[12-Apr-2025 14:51:57 UTC] User details: Array
+(
+    [id] => 2
+    [username] => john_doe
+    [email] => john@example.com
+    [password] => ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
+    [role] => customer
+)
+
+[12-Apr-2025 14:51:57 UTC] User role: customer
+[12-Apr-2025 14:51:57 UTC] Password verify result: false
+[12-Apr-2025 14:52:10 UTC] === New Login Attempt ===
+[12-Apr-2025 14:52:10 UTC] Email input: ahihi@gmail.com
+[12-Apr-2025 14:52:10 UTC] Password length: 6
+[12-Apr-2025 14:52:10 UTC] Login attempt - Email: ahihi@gmail.com
+[12-Apr-2025 14:52:10 UTC] POST data received: Array
+(
+    [email] => ahihi@gmail.com
+    [password] => 123456
+)
+
+[12-Apr-2025 14:52:10 UTC] Attempting login for email: ahihi@gmail.com
+[12-Apr-2025 14:52:10 UTC] User not found in database
+[12-Apr-2025 14:52:19 UTC] === New Login Attempt ===
+[12-Apr-2025 14:52:19 UTC] Email input: ahihi@gmail.com
+[12-Apr-2025 14:52:19 UTC] Password length: 6
+[12-Apr-2025 14:52:19 UTC] Login attempt - Email: ahihi@gmail.com
+[12-Apr-2025 14:52:19 UTC] POST data received: Array
+(
+    [email] => ahihi@gmail.com
+    [password] => 123456
+)
+
+[12-Apr-2025 14:52:19 UTC] Attempting login for email: ahihi@gmail.com
+[12-Apr-2025 14:52:19 UTC] User not found in database
+[12-Apr-2025 14:53:52 UTC] === New Login Attempt ===
+[12-Apr-2025 14:53:52 UTC] Email input: john@example.com
+[12-Apr-2025 14:53:52 UTC] Password length: 11
+[12-Apr-2025 14:53:52 UTC] Login attempt - Email: john@example.com
+[12-Apr-2025 14:53:52 UTC] POST data received: Array
+(
+    [email] => john@example.com
+    [password] => password123
+)
+
+[12-Apr-2025 14:53:52 UTC] Attempting login for email: john@example.com
+[12-Apr-2025 14:53:52 UTC] Found user in database:
+[12-Apr-2025 14:53:52 UTC] Database email: john@example.com
+[12-Apr-2025 14:53:52 UTC] Database password hash: ef92b778ba...
+[12-Apr-2025 14:53:52 UTC] User found in database
+[12-Apr-2025 14:53:52 UTC] User details: Array
+(
+    [id] => 2
+    [username] => john_doe
+    [email] => john@example.com
+    [password] => ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
+    [role] => customer
+)
+
+[12-Apr-2025 14:53:52 UTC] User role: customer
+[12-Apr-2025 14:53:52 UTC] Input password hash: ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
+[12-Apr-2025 14:53:52 UTC] Database password hash: ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f
+[22-Apr-2025 19:20:04 UTC] === New Login Attempt ===
+[22-Apr-2025 19:20:04 UTC] Email input: hbiu1705
+[22-Apr-2025 19:20:04 UTC] Password length: 6
+[22-Apr-2025 19:20:04 UTC] Login attempt - Email: hbiu1705
+[22-Apr-2025 19:20:04 UTC] POST data received: Array
+(
+    [email] => hbiu1705
+    [password] => 111111
+)
+
+[22-Apr-2025 19:20:04 UTC] Attempting login for email: hbiu1705
+[22-Apr-2025 19:20:04 UTC] User not found in database
+[22-Apr-2025 19:20:09 UTC] === New Login Attempt ===
+[22-Apr-2025 19:20:09 UTC] Email input: hbiu1705
+[22-Apr-2025 19:20:09 UTC] Password length: 6
+[22-Apr-2025 19:20:09 UTC] Login attempt - Email: hbiu1705
+[22-Apr-2025 19:20:09 UTC] POST data received: Array
+(
+    [email] => hbiu1705
+    [password] => 111111
+)
+
+[22-Apr-2025 19:20:09 UTC] Attempting login for email: hbiu1705
+[22-Apr-2025 19:20:09 UTC] User not found in database
+[22-Apr-2025 19:20:18 UTC] === New Login Attempt ===
+[22-Apr-2025 19:20:18 UTC] Email input: hbiu1705
+[22-Apr-2025 19:20:18 UTC] Password length: 6
+[22-Apr-2025 19:20:18 UTC] Login attempt - Email: hbiu1705
+[22-Apr-2025 19:20:18 UTC] POST data received: Array
+(
+    [email] => hbiu1705
+    [password] => 111111
+)
+
+[22-Apr-2025 19:20:18 UTC] Attempting login for email: hbiu1705
+[22-Apr-2025 19:20:18 UTC] User not found in database
+[22-Apr-2025 20:36:02 UTC] === New Login Attempt ===
+[22-Apr-2025 20:36:02 UTC] Email input: hungbiuu@gmail.com
+[22-Apr-2025 20:36:02 UTC] Password length: 6
+[22-Apr-2025 20:36:02 UTC] Login attempt - Email: hungbiuu@gmail.com
+[22-Apr-2025 20:36:02 UTC] POST data received: Array
+(
+    [email] => hungbiuu@gmail.com
+    [password] => 123456
+)
+
+[22-Apr-2025 20:36:02 UTC] Attempting login for email: hungbiuu@gmail.com
+[22-Apr-2025 20:36:02 UTC] Found user in database:
+[22-Apr-2025 20:36:02 UTC] Database email: hungbiuu@gmail.com
+[22-Apr-2025 20:36:02 UTC] Database password hash: $2y$10$qX0...
+[22-Apr-2025 20:36:02 UTC] User found in database
+[22-Apr-2025 20:36:02 UTC] User details: Array
+(
+    [id] => 5
+    [username] => hungbiuu
+    [email] => hungbiuu@gmail.com
+    [password] => $2y$10$qX0CfUXQ/jZvsfYwntxfl.maT3h6bixqv8AIbBMBJ0dGgH.eB5CKO
+    [role] => customer
+)
+
+[22-Apr-2025 20:36:02 UTC] User role: customer
+[22-Apr-2025 20:36:02 UTC] Input password hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+[22-Apr-2025 20:36:02 UTC] Database password hash: $2y$10$qX0CfUXQ/jZvsfYwntxfl.maT3h6bixqv8AIbBMBJ0dGgH.eB5CKO
+[22-Apr-2025 20:37:20 UTC] === New Login Attempt ===
+[22-Apr-2025 20:37:20 UTC] Email input: nguyenvana@gmail.com
+[22-Apr-2025 20:37:20 UTC] Password length: 6
+[22-Apr-2025 20:37:20 UTC] Login attempt - Email: nguyenvana@gmail.com
+[22-Apr-2025 20:37:20 UTC] POST data received: Array
+(
+    [email] => nguyenvana@gmail.com
+    [password] => 123456
+)
+
+[22-Apr-2025 20:37:20 UTC] Attempting login for email: nguyenvana@gmail.com
+[22-Apr-2025 20:37:20 UTC] Found user in database:
+[22-Apr-2025 20:37:20 UTC] Database email: nguyenvana@gmail.com
+[22-Apr-2025 20:37:20 UTC] Database password hash: $2y$10$IKM...
+[22-Apr-2025 20:37:20 UTC] User found in database
+[22-Apr-2025 20:37:20 UTC] User details: Array
+(
+    [id] => 6
+    [username] => nguyenvana
+    [email] => nguyenvana@gmail.com
+    [password] => $2y$10$IKMFAwupDCNY1NQhOVgA/uAnfYgl1OmqksoRPdLp9oC3KhuPlAGkq
+    [role] => customer
+)
+
+[22-Apr-2025 20:37:20 UTC] User role: customer
+[22-Apr-2025 20:37:20 UTC] Input password hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+[22-Apr-2025 20:37:20 UTC] Database password hash: $2y$10$IKMFAwupDCNY1NQhOVgA/uAnfYgl1OmqksoRPdLp9oC3KhuPlAGkq
+[22-Apr-2025 20:39:26 UTC] === New Login Attempt ===
+[22-Apr-2025 20:39:26 UTC] Email input: nguyenvana@gmail.com
+[22-Apr-2025 20:39:26 UTC] Password length: 6
+[22-Apr-2025 20:39:26 UTC] Login attempt - Email: nguyenvana@gmail.com
+[22-Apr-2025 20:39:26 UTC] POST data received: Array
+(
+    [email] => nguyenvana@gmail.com
+    [password] => 123456
+)
+
+[22-Apr-2025 20:39:26 UTC] Attempting login for email: nguyenvana@gmail.com
+[22-Apr-2025 20:39:26 UTC] Found user in database:
+[22-Apr-2025 20:39:26 UTC] Database email: nguyenvana@gmail.com
+[22-Apr-2025 20:39:26 UTC] Database password hash: $2y$10$IKM...
+[22-Apr-2025 20:39:26 UTC] User found in database
+[22-Apr-2025 20:39:26 UTC] User details: Array
+(
+    [id] => 6
+    [username] => nguyenvana
+    [email] => nguyenvana@gmail.com
+    [password] => $2y$10$IKMFAwupDCNY1NQhOVgA/uAnfYgl1OmqksoRPdLp9oC3KhuPlAGkq
+    [role] => customer
+)
+
+[22-Apr-2025 20:39:26 UTC] User role: customer

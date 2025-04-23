@@ -1,0 +1,489 @@
+[22-Apr-2025 18:42:39 UTC] Starting categories API request
+[22-Apr-2025 18:42:39 UTC] Initializing database connection
+[22-Apr-2025 18:42:39 UTC] Database connected successfully
+[22-Apr-2025 18:42:39 UTC] Request method: GET
+[22-Apr-2025 18:42:39 UTC] GET params: {"type":"product"}
+[22-Apr-2025 18:42:39 UTC] Fetching categories of type: product
+[22-Apr-2025 18:42:39 UTC] Table columns: ["id","name","slug","description","image","status","type","created_at","updated_at"]
+[22-Apr-2025 18:42:39 UTC] Fetching all categories
+[22-Apr-2025 18:42:39 UTC] Executing query
+[22-Apr-2025 18:42:39 UTC] Getting result
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 18:42:39 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 18:42:39 UTC] Sending response with 10 categories
+[22-Apr-2025 18:46:45 UTC] Starting posts API request
+[22-Apr-2025 18:46:45 UTC] Initializing database connection
+[22-Apr-2025 18:46:45 UTC] Database connected successfully
+[22-Apr-2025 18:46:45 UTC] Request method: GET
+[22-Apr-2025 18:46:45 UTC] GET params: {"page":"1"}
+[22-Apr-2025 18:46:45 UTC] Fetching all posts
+[22-Apr-2025 18:46:45 UTC] Executing query
+[22-Apr-2025 18:46:45 UTC] Getting result
+[22-Apr-2025 18:46:45 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:46:45 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 18:46:45 UTC] Sending response with 2 posts
+[22-Apr-2025 18:46:48 UTC] Starting posts API request
+[22-Apr-2025 18:46:48 UTC] Initializing database connection
+[22-Apr-2025 18:46:48 UTC] Database connected successfully
+[22-Apr-2025 18:46:48 UTC] Request method: GET
+[22-Apr-2025 18:46:48 UTC] GET params: {"id":"1"}
+[22-Apr-2025 18:46:48 UTC] Fetching single post with ID: 1
+[22-Apr-2025 18:46:48 UTC] Executing query
+[22-Apr-2025 18:46:48 UTC] Getting result
+[22-Apr-2025 18:46:48 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:46:48 UTC] Sending response with 1 posts
+[22-Apr-2025 18:50:09 UTC] Starting posts API request
+[22-Apr-2025 18:50:09 UTC] Initializing database connection
+[22-Apr-2025 18:50:09 UTC] Database connected successfully
+[22-Apr-2025 18:50:09 UTC] Request method: GET
+[22-Apr-2025 18:50:09 UTC] GET params: {"page":"1"}
+[22-Apr-2025 18:50:09 UTC] Fetching all posts
+[22-Apr-2025 18:50:09 UTC] Executing query
+[22-Apr-2025 18:50:09 UTC] Getting result
+[22-Apr-2025 18:50:09 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:50:09 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 18:50:09 UTC] Sending response with 2 posts
+[22-Apr-2025 18:50:39 UTC] Starting posts API request
+[22-Apr-2025 18:50:39 UTC] Initializing database connection
+[22-Apr-2025 18:50:39 UTC] Database connected successfully
+[22-Apr-2025 18:50:39 UTC] Request method: GET
+[22-Apr-2025 18:50:39 UTC] GET params: {"id":"1"}
+[22-Apr-2025 18:50:39 UTC] Fetching single post with ID: 1
+[22-Apr-2025 18:50:39 UTC] Executing query
+[22-Apr-2025 18:50:39 UTC] Getting result
+[22-Apr-2025 18:50:39 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:50:39 UTC] Sending response with 1 posts
+[22-Apr-2025 18:52:08 UTC] Starting categories API request
+[22-Apr-2025 18:52:08 UTC] Initializing database connection
+[22-Apr-2025 18:52:08 UTC] Database connected successfully
+[22-Apr-2025 18:52:08 UTC] Request method: GET
+[22-Apr-2025 18:52:08 UTC] GET params: {"type":"product"}
+[22-Apr-2025 18:52:08 UTC] Fetching all categories
+[22-Apr-2025 18:52:08 UTC] Executing query
+[22-Apr-2025 18:52:08 UTC] Getting result
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:52:08 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:52:08 UTC] Sending response with 10 categories
+[22-Apr-2025 18:52:16 UTC] Starting categories API request
+[22-Apr-2025 18:52:16 UTC] Initializing database connection
+[22-Apr-2025 18:52:16 UTC] Database connected successfully
+[22-Apr-2025 18:52:16 UTC] Request method: GET
+[22-Apr-2025 18:52:16 UTC] GET params: {"type":"product"}
+[22-Apr-2025 18:52:16 UTC] Fetching all categories
+[22-Apr-2025 18:52:16 UTC] Executing query
+[22-Apr-2025 18:52:16 UTC] Getting result
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:52:16 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:52:16 UTC] Sending response with 10 categories
+[22-Apr-2025 18:52:48 UTC] Starting posts API request
+[22-Apr-2025 18:52:48 UTC] Initializing database connection
+[22-Apr-2025 18:52:48 UTC] Database connected successfully
+[22-Apr-2025 18:52:48 UTC] Request method: GET
+[22-Apr-2025 18:52:48 UTC] GET params: {"page":"1"}
+[22-Apr-2025 18:52:48 UTC] Fetching all posts
+[22-Apr-2025 18:52:48 UTC] Executing query
+[22-Apr-2025 18:52:48 UTC] Getting result
+[22-Apr-2025 18:52:48 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:52:48 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 18:52:48 UTC] Sending response with 2 posts
+[22-Apr-2025 18:56:01 UTC] Starting categories API request
+[22-Apr-2025 18:56:01 UTC] Initializing database connection
+[22-Apr-2025 18:56:01 UTC] Database connected successfully
+[22-Apr-2025 18:56:01 UTC] Request method: GET
+[22-Apr-2025 18:56:01 UTC] GET params: {"type":"product"}
+[22-Apr-2025 18:56:01 UTC] Fetching all categories
+[22-Apr-2025 18:56:01 UTC] Executing query
+[22-Apr-2025 18:56:01 UTC] Getting result
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:56:01 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 18:56:01 UTC] Sending response with 10 categories
+[22-Apr-2025 18:56:39 UTC] Starting posts API request
+[22-Apr-2025 18:56:39 UTC] Initializing database connection
+[22-Apr-2025 18:56:39 UTC] Database connected successfully
+[22-Apr-2025 18:56:39 UTC] Request method: GET
+[22-Apr-2025 18:56:39 UTC] GET params: {"page":"1"}
+[22-Apr-2025 18:56:39 UTC] Fetching all posts
+[22-Apr-2025 18:56:39 UTC] Executing query
+[22-Apr-2025 18:56:39 UTC] Getting result
+[22-Apr-2025 18:56:39 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:56:39 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 18:56:39 UTC] Sending response with 2 posts
+[22-Apr-2025 18:58:22 UTC] Starting posts API request
+[22-Apr-2025 18:58:22 UTC] Initializing database connection
+[22-Apr-2025 18:58:22 UTC] Database connected successfully
+[22-Apr-2025 18:58:22 UTC] Request method: GET
+[22-Apr-2025 18:58:22 UTC] GET params: {"page":"1"}
+[22-Apr-2025 18:58:22 UTC] Fetching all posts
+[22-Apr-2025 18:58:22 UTC] Executing query
+[22-Apr-2025 18:58:22 UTC] Getting result
+[22-Apr-2025 18:58:22 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 18:58:22 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 18:58:22 UTC] Sending response with 2 posts
+[22-Apr-2025 19:01:35 UTC] Starting posts API request
+[22-Apr-2025 19:01:35 UTC] Initializing database connection
+[22-Apr-2025 19:01:35 UTC] Database connected successfully
+[22-Apr-2025 19:01:35 UTC] Request method: GET
+[22-Apr-2025 19:01:35 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:01:35 UTC] Fetching all posts
+[22-Apr-2025 19:01:35 UTC] Executing query
+[22-Apr-2025 19:01:35 UTC] Getting result
+[22-Apr-2025 19:01:35 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:01:35 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:01:35 UTC] Sending response with 2 posts
+[22-Apr-2025 19:01:46 UTC] Starting categories API request
+[22-Apr-2025 19:01:46 UTC] Initializing database connection
+[22-Apr-2025 19:01:46 UTC] Database connected successfully
+[22-Apr-2025 19:01:46 UTC] Request method: GET
+[22-Apr-2025 19:01:46 UTC] GET params: {"type":"product"}
+[22-Apr-2025 19:01:46 UTC] Fetching all categories
+[22-Apr-2025 19:01:46 UTC] Executing query
+[22-Apr-2025 19:01:46 UTC] Getting result
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:01:46 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:01:46 UTC] Sending response with 10 categories
+[22-Apr-2025 19:02:03 UTC] Starting posts API request
+[22-Apr-2025 19:02:03 UTC] Initializing database connection
+[22-Apr-2025 19:02:03 UTC] Database connected successfully
+[22-Apr-2025 19:02:03 UTC] Request method: GET
+[22-Apr-2025 19:02:03 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:02:03 UTC] Fetching all posts
+[22-Apr-2025 19:02:03 UTC] Executing query
+[22-Apr-2025 19:02:03 UTC] Getting result
+[22-Apr-2025 19:02:03 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:02:03 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:02:03 UTC] Sending response with 2 posts
+[22-Apr-2025 19:03:19 UTC] Starting posts API request
+[22-Apr-2025 19:03:19 UTC] Initializing database connection
+[22-Apr-2025 19:03:19 UTC] Database connected successfully
+[22-Apr-2025 19:03:19 UTC] Request method: GET
+[22-Apr-2025 19:03:19 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:03:19 UTC] Fetching all posts
+[22-Apr-2025 19:03:19 UTC] Executing query
+[22-Apr-2025 19:03:19 UTC] Getting result
+[22-Apr-2025 19:03:19 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:03:19 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:03:19 UTC] Sending response with 2 posts
+[22-Apr-2025 19:03:20 UTC] Starting posts API request
+[22-Apr-2025 19:03:20 UTC] Initializing database connection
+[22-Apr-2025 19:03:20 UTC] Database connected successfully
+[22-Apr-2025 19:03:20 UTC] Request method: GET
+[22-Apr-2025 19:03:20 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:03:20 UTC] Fetching all posts
+[22-Apr-2025 19:03:20 UTC] Executing query
+[22-Apr-2025 19:03:20 UTC] Getting result
+[22-Apr-2025 19:03:20 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:03:20 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:03:20 UTC] Sending response with 2 posts
+[22-Apr-2025 19:04:26 UTC] Starting categories API request
+[22-Apr-2025 19:04:26 UTC] Initializing database connection
+[22-Apr-2025 19:04:26 UTC] Database connected successfully
+[22-Apr-2025 19:04:26 UTC] Request method: GET
+[22-Apr-2025 19:04:26 UTC] GET params: {"type":"product"}
+[22-Apr-2025 19:04:26 UTC] Fetching all categories
+[22-Apr-2025 19:04:26 UTC] Executing query
+[22-Apr-2025 19:04:26 UTC] Getting result
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:04:26 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:04:26 UTC] Sending response with 10 categories
+[22-Apr-2025 19:04:34 UTC] Starting categories API request
+[22-Apr-2025 19:04:34 UTC] Initializing database connection
+[22-Apr-2025 19:04:34 UTC] Database connected successfully
+[22-Apr-2025 19:04:34 UTC] Request method: GET
+[22-Apr-2025 19:04:34 UTC] GET params: {"type":"product"}
+[22-Apr-2025 19:04:34 UTC] Fetching all categories
+[22-Apr-2025 19:04:34 UTC] Executing query
+[22-Apr-2025 19:04:34 UTC] Getting result
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:04:34 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:04:34 UTC] Sending response with 10 categories
+[22-Apr-2025 19:04:39 UTC] Starting categories API request
+[22-Apr-2025 19:04:39 UTC] Initializing database connection
+[22-Apr-2025 19:04:39 UTC] Database connected successfully
+[22-Apr-2025 19:04:39 UTC] Request method: GET
+[22-Apr-2025 19:04:39 UTC] GET params: {"type":"product"}
+[22-Apr-2025 19:04:39 UTC] Fetching all categories
+[22-Apr-2025 19:04:39 UTC] Executing query
+[22-Apr-2025 19:04:39 UTC] Getting result
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:04:39 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:04:39 UTC] Sending response with 10 categories
+[22-Apr-2025 19:05:54 UTC] Starting categories API request
+[22-Apr-2025 19:05:54 UTC] === Starting categories API request ===
+[22-Apr-2025 19:05:54 UTC] Request method: GET
+[22-Apr-2025 19:05:54 UTC] Request URI: /lotso/api/categories.php?type=product
+[22-Apr-2025 19:05:54 UTC] Query string: type=product
+[22-Apr-2025 19:05:54 UTC] Database connected successfully
+[22-Apr-2025 19:05:54 UTC] Database connection successful
+[22-Apr-2025 19:05:54 UTC] Processing GET request
+[22-Apr-2025 19:05:54 UTC] Checking if categories table exists
+[22-Apr-2025 19:05:54 UTC] Categories table exists
+[22-Apr-2025 19:05:54 UTC] Fetching all categories
+[22-Apr-2025 19:05:54 UTC] Executing query
+[22-Apr-2025 19:05:54 UTC] Getting result
+[22-Apr-2025 19:05:54 UTC] Processing results
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:05:54 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:05:54 UTC] Found 10 categories
+[22-Apr-2025 19:05:54 UTC] Sending response
+[22-Apr-2025 19:05:56 UTC] Starting categories API request
+[22-Apr-2025 19:05:56 UTC] === Starting categories API request ===
+[22-Apr-2025 19:05:56 UTC] Request method: GET
+[22-Apr-2025 19:05:56 UTC] Request URI: /lotso/api/categories.php?type=product
+[22-Apr-2025 19:05:56 UTC] Query string: type=product
+[22-Apr-2025 19:05:56 UTC] Database connected successfully
+[22-Apr-2025 19:05:56 UTC] Database connection successful
+[22-Apr-2025 19:05:56 UTC] Processing GET request
+[22-Apr-2025 19:05:56 UTC] Checking if categories table exists
+[22-Apr-2025 19:05:56 UTC] Categories table exists
+[22-Apr-2025 19:05:56 UTC] Fetching all categories
+[22-Apr-2025 19:05:56 UTC] Executing query
+[22-Apr-2025 19:05:56 UTC] Getting result
+[22-Apr-2025 19:05:56 UTC] Processing results
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:05:56 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:05:56 UTC] Found 10 categories
+[22-Apr-2025 19:05:56 UTC] Sending response
+[22-Apr-2025 19:07:01 UTC] Starting posts API request
+[22-Apr-2025 19:07:01 UTC] Initializing database connection
+[22-Apr-2025 19:07:01 UTC] Database connected successfully
+[22-Apr-2025 19:07:01 UTC] Request method: GET
+[22-Apr-2025 19:07:01 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:07:01 UTC] Fetching all posts
+[22-Apr-2025 19:07:01 UTC] Executing query
+[22-Apr-2025 19:07:01 UTC] Getting result
+[22-Apr-2025 19:07:01 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:07:01 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:07:01 UTC] Sending response with 2 posts
+[22-Apr-2025 19:07:25 UTC] Starting categories API request
+[22-Apr-2025 19:07:25 UTC] === Starting categories API request ===
+[22-Apr-2025 19:07:25 UTC] Request method: GET
+[22-Apr-2025 19:07:25 UTC] Request URI: /lotso/api/categories.php?type=product
+[22-Apr-2025 19:07:25 UTC] Query string: type=product
+[22-Apr-2025 19:07:25 UTC] Database connected successfully
+[22-Apr-2025 19:07:25 UTC] Database connection successful
+[22-Apr-2025 19:07:25 UTC] Processing GET request
+[22-Apr-2025 19:07:25 UTC] Checking if categories table exists
+[22-Apr-2025 19:07:25 UTC] Categories table exists
+[22-Apr-2025 19:07:25 UTC] Fetching all categories
+[22-Apr-2025 19:07:25 UTC] Executing query
+[22-Apr-2025 19:07:25 UTC] Getting result
+[22-Apr-2025 19:07:25 UTC] Processing results
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:07:25 UTC] Processing row: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:07:25 UTC] Found 10 categories
+[22-Apr-2025 19:07:25 UTC] Sending response
+[22-Apr-2025 19:08:24 UTC] Starting posts API request
+[22-Apr-2025 19:08:24 UTC] Initializing database connection
+[22-Apr-2025 19:08:24 UTC] Database connected successfully
+[22-Apr-2025 19:08:24 UTC] Request method: GET
+[22-Apr-2025 19:08:24 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:08:24 UTC] Fetching all posts
+[22-Apr-2025 19:08:24 UTC] Executing query
+[22-Apr-2025 19:08:24 UTC] Getting result
+[22-Apr-2025 19:08:24 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:08:24 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:08:24 UTC] Sending response with 2 posts
+[22-Apr-2025 19:09:29 UTC] Starting product categories API request
+[22-Apr-2025 19:09:29 UTC] Connecting to lotso database
+[22-Apr-2025 19:09:29 UTC] PHP Deprecated:  Creation of dynamic property ProductDatabase::$conn is deprecated in C:\laragon\www\lotso\api\categories.php on line 26
+[22-Apr-2025 19:09:29 UTC] Database connected successfully
+[22-Apr-2025 19:09:29 UTC] Database connection successful
+[22-Apr-2025 19:09:29 UTC] Processing GET request for product categories
+[22-Apr-2025 19:09:29 UTC] Fetching all categories
+[22-Apr-2025 19:09:29 UTC] Executing query
+[22-Apr-2025 19:09:29 UTC] Getting result
+[22-Apr-2025 19:09:29 UTC] Processing results
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":10,"name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"dep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 00:57:09"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":9,"name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":1,"type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":8,"name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":7,"name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":6,"name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":5,"name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":4,"name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":1,"type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":1,"name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":2,"name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:09:29 UTC] Found category: {"id":3,"name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":1,"type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:09:29 UTC] Found 10 product categories
+[22-Apr-2025 19:09:29 UTC] Sending response
+[22-Apr-2025 19:12:44 UTC] Starting posts API request
+[22-Apr-2025 19:12:44 UTC] Initializing database connection
+[22-Apr-2025 19:12:44 UTC] Database connected successfully
+[22-Apr-2025 19:12:44 UTC] Request method: GET
+[22-Apr-2025 19:12:44 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:12:44 UTC] Fetching all posts
+[22-Apr-2025 19:12:44 UTC] Executing query
+[22-Apr-2025 19:12:44 UTC] Getting result
+[22-Apr-2025 19:12:44 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:12:44 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:12:44 UTC] Sending response with 2 posts
+[22-Apr-2025 19:12:54 UTC] Starting categories API request
+[22-Apr-2025 19:12:54 UTC] Database connection successful
+[22-Apr-2025 19:12:54 UTC] Processing GET request
+[22-Apr-2025 19:12:54 UTC] Table structure: [{"Field":"id","Type":"int","Null":"NO","Key":"PRI","Default":null,"Extra":"auto_increment"},{"Field":"name","Type":"varchar(255)","Null":"NO","Key":"","Default":null,"Extra":""},{"Field":"slug","Type":"varchar(255)","Null":"NO","Key":"UNI","Default":null,"Extra":""},{"Field":"description","Type":"text","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"image","Type":"varchar(255)","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"status","Type":"tinyint(1)","Null":"YES","Key":"","Default":"1","Extra":""},{"Field":"type","Type":"enum('product','post')","Null":"NO","Key":"","Default":"product","Extra":""},{"Field":"created_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED"},{"Field":"updated_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED on update CURRENT_TIMESTAMP"}]
+[22-Apr-2025 19:12:54 UTC] Executing query: SELECT * FROM categories ORDER BY created_at DESC
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"12","name":"Lotso","slug":"otso","description":"b\u00e0i vi\u1ebft v\u1ec1 lotso","image":null,"status":"1","type":"post","created_at":"2025-04-23 02:12:35","updated_at":"2025-04-23 02:12:35"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 02:12:12"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:12:54 UTC] Found category: {"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:12:54 UTC] Total categories found: 11
+[22-Apr-2025 19:12:54 UTC] Categories data: [{"id":"12","name":"Lotso","slug":"otso","description":"b\u00e0i vi\u1ebft v\u1ec1 lotso","status":1},{"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","status":1},{"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","status":1},{"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","status":1},{"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","status":1},{"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","status":1},{"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","status":1},{"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","status":1},{"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","status":1},{"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","status":1},{"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","status":1}]
+[22-Apr-2025 19:15:40 UTC] Starting categories API request
+[22-Apr-2025 19:15:40 UTC] Database connection successful
+[22-Apr-2025 19:15:40 UTC] Processing GET request
+[22-Apr-2025 19:15:40 UTC] Table structure: [{"Field":"id","Type":"int","Null":"NO","Key":"PRI","Default":null,"Extra":"auto_increment"},{"Field":"name","Type":"varchar(255)","Null":"NO","Key":"","Default":null,"Extra":""},{"Field":"slug","Type":"varchar(255)","Null":"NO","Key":"UNI","Default":null,"Extra":""},{"Field":"description","Type":"text","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"image","Type":"varchar(255)","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"status","Type":"tinyint(1)","Null":"YES","Key":"","Default":"1","Extra":""},{"Field":"type","Type":"enum('product','post')","Null":"NO","Key":"","Default":"product","Extra":""},{"Field":"created_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED"},{"Field":"updated_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED on update CURRENT_TIMESTAMP"}]
+[22-Apr-2025 19:15:40 UTC] Filtering by type: product
+[22-Apr-2025 19:15:40 UTC] Executing query: SELECT * FROM categories WHERE type = 'product' ORDER BY created_at DESC
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 02:12:12"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:15:40 UTC] Found category: {"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:15:40 UTC] Total categories found: 10
+[22-Apr-2025 19:15:40 UTC] Categories data: [{"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","status":1,"type":"product"},{"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","status":1,"type":"product"},{"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","status":1,"type":"product"},{"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","status":1,"type":"product"},{"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","status":1,"type":"product"},{"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","status":1,"type":"product"},{"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","status":1,"type":"product"},{"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","status":1,"type":"product"},{"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","status":1,"type":"product"},{"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","status":1,"type":"product"}]
+[22-Apr-2025 19:17:34 UTC] Starting categories API request
+[22-Apr-2025 19:17:34 UTC] Database connection successful
+[22-Apr-2025 19:17:34 UTC] Processing GET request
+[22-Apr-2025 19:17:34 UTC] Table structure: [{"Field":"id","Type":"int","Null":"NO","Key":"PRI","Default":null,"Extra":"auto_increment"},{"Field":"name","Type":"varchar(255)","Null":"NO","Key":"","Default":null,"Extra":""},{"Field":"slug","Type":"varchar(255)","Null":"NO","Key":"UNI","Default":null,"Extra":""},{"Field":"description","Type":"text","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"image","Type":"varchar(255)","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"status","Type":"tinyint(1)","Null":"YES","Key":"","Default":"1","Extra":""},{"Field":"type","Type":"enum('product','post')","Null":"NO","Key":"","Default":"product","Extra":""},{"Field":"created_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED"},{"Field":"updated_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED on update CURRENT_TIMESTAMP"}]
+[22-Apr-2025 19:17:34 UTC] Filtering by type: product
+[22-Apr-2025 19:17:34 UTC] Executing query: SELECT * FROM categories WHERE type = 'product' ORDER BY created_at DESC
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 02:12:12"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:17:34 UTC] Found category: {"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[22-Apr-2025 19:17:34 UTC] Total categories found: 10
+[22-Apr-2025 19:17:34 UTC] Categories data: [{"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","status":1,"type":"product"},{"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","status":1,"type":"product"},{"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","status":1,"type":"product"},{"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","status":1,"type":"product"},{"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","status":1,"type":"product"},{"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","status":1,"type":"product"},{"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","status":1,"type":"product"},{"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","status":1,"type":"product"},{"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","status":1,"type":"product"},{"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","status":1,"type":"product"}]
+[22-Apr-2025 19:17:47 UTC] Starting posts API request
+[22-Apr-2025 19:17:47 UTC] Initializing database connection
+[22-Apr-2025 19:17:48 UTC] Database connected successfully
+[22-Apr-2025 19:17:48 UTC] Request method: GET
+[22-Apr-2025 19:17:48 UTC] GET params: {"page":"1"}
+[22-Apr-2025 19:17:48 UTC] Fetching all posts
+[22-Apr-2025 19:17:48 UTC] Executing query
+[22-Apr-2025 19:17:48 UTC] Getting result
+[22-Apr-2025 19:17:48 UTC] Processing row: {"id":1,"title":"H\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y th\u1ec3 thao","slug":"huong-dan-chon-giay-the-thao","content":"N\u1ed9i dung h\u01b0\u1edbng d\u1eabn ch\u1ecdn gi\u00e0y...","excerpt":"T\u1ed5ng h\u1ee3p c\u00e1c ti\u00eau ch\u00ed quan tr\u1ecdng khi ch\u1ecdn gi\u00e0y th\u1ec3 thao","category_id":1,"author_id":2,"image":"huong_dan_chon_giay.jpg","views":0,"status":"published","meta_title":"C\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p","meta_description":"H\u01b0\u1edbng d\u1eabn chi ti\u1ebft c\u00e1ch ch\u1ecdn gi\u00e0y th\u1ec3 thao ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng m\u00f4n th\u1ec3 thao","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y th\u1ec3 thao"}
+[22-Apr-2025 19:17:48 UTC] Processing row: {"id":2,"title":"C\u00e1ch ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker","slug":"cach-phoi-do-voi-giay-sneaker","content":"N\u1ed9i dung c\u00e1ch ph\u1ed1i \u0111\u1ed3...","excerpt":"Nh\u1eefng g\u1ee3i \u00fd ph\u1ed1i \u0111\u1ed3 c\u00f9ng sneaker c\u1ef1c ch\u1ea5t","category_id":3,"author_id":3,"image":"phoi_do_sneaker.jpg","views":0,"status":"published","meta_title":"Mix & Match v\u1edbi Sneaker","meta_description":"H\u01b0\u1edbng d\u1eabn ph\u1ed1i \u0111\u1ed3 v\u1edbi gi\u00e0y sneaker cho nam v\u00e0 n\u1eef","meta_keywords":null,"created_at":"2025-04-22 20:47:13","category_name":"Gi\u00e0y sneakers"}
+[22-Apr-2025 19:17:48 UTC] Sending response with 2 posts
+[23-Apr-2025 07:56:20 UTC] Starting categories API request
+[23-Apr-2025 07:56:20 UTC] Database connection successful
+[23-Apr-2025 07:56:20 UTC] Processing GET request
+[23-Apr-2025 07:56:20 UTC] Table structure: [{"Field":"id","Type":"int","Null":"NO","Key":"PRI","Default":null,"Extra":"auto_increment"},{"Field":"name","Type":"varchar(255)","Null":"NO","Key":"","Default":null,"Extra":""},{"Field":"slug","Type":"varchar(255)","Null":"NO","Key":"UNI","Default":null,"Extra":""},{"Field":"description","Type":"text","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"image","Type":"varchar(255)","Null":"YES","Key":"","Default":null,"Extra":""},{"Field":"status","Type":"tinyint(1)","Null":"YES","Key":"","Default":"1","Extra":""},{"Field":"type","Type":"enum('product','post')","Null":"NO","Key":"","Default":"product","Extra":""},{"Field":"created_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED"},{"Field":"updated_at","Type":"timestamp","Null":"YES","Key":"","Default":"CURRENT_TIMESTAMP","Extra":"DEFAULT_GENERATED on update CURRENT_TIMESTAMP"}]
+[23-Apr-2025 07:56:20 UTC] Filtering by type: product
+[23-Apr-2025 07:56:20 UTC] Executing query: SELECT * FROM categories WHERE type = 'product' ORDER BY created_at DESC
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:08:40","updated_at":"2025-04-23 02:12:12"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","image":null,"status":"1","type":"product","created_at":"2025-04-22 23:01:34","updated_at":"2025-04-22 23:01:34"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:46","updated_at":"2025-04-22 22:58:46"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:58:24","updated_at":"2025-04-22 22:58:24"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:52:57","updated_at":"2025-04-22 22:52:57"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:41:54","updated_at":"2025-04-22 22:41:54"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","image":null,"status":"1","type":"product","created_at":"2025-04-22 22:35:46","updated_at":"2025-04-22 22:42:22"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","image":"sport.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 22:33:02"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","image":"office.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[23-Apr-2025 07:56:20 UTC] Found category: {"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","image":"sneakers.jpg","status":"1","type":"product","created_at":"2025-04-22 20:47:13","updated_at":"2025-04-22 20:47:13"}
+[23-Apr-2025 07:56:20 UTC] Total categories found: 10
+[23-Apr-2025 07:56:20 UTC] Categories data: [{"id":"10","name":"D\u00e9p b\u00e1nh m\u00ec lotso","slug":"ep-banh-mi-lotso","description":"D\u00e9p l\u00ea \u00eam \u00e1i","status":1,"type":"product"},{"id":"9","name":"Ph\u1ee5 ki\u1ec7n lotso","slug":"phu-kien-lotso","description":"Ph\u1ee5 ki\u1ec7n \u0111i k\u00e8m c\u1ee7a lotso","status":1,"type":"product"},{"id":"8","name":"D\u00e9p l\u00f4ng m\u00f9a \u0111\u00f4ng ","slug":"dep-long-mua-dong","description":"\u1ea4m \u00e1p d\u1ec5 th\u01b0\u01a1ng","status":1,"type":"product"},{"id":"7","name":"D\u00e9p \u0111\u1ebf xu\u00f4ng ","slug":"dep-de-xuong","description":"c\u1ed5 \u0111i\u1ec3n, l\u1ecbch thi\u1ec7p","status":1,"type":"product"},{"id":"6","name":"D\u00e9p l\u00ea b\u00e9 g\u00e1i","slug":"dep-le-be-gai","description":"danh m\u1ee5c d\u00e9p l\u00ea cho b\u00e9 g\u00e1i ","status":1,"type":"product"},{"id":"5","name":"d\u00e9p x\u1ecf ng\u00f3n ","slug":"dep-xo-ngon","description":"d\u00e9p x\u1ecf ng\u00f3n tho\u00e1ng m\u00e1t, th\u1eddi th\u01b0\u1ee3ng ","status":1,"type":"product"},{"id":"4","name":"d\u00e9p crocs","slug":"dep-crocs","description":"m\u1eabu gi\u00e0y d\u00e9p \u0111a n\u0103ng, n\u0103ng \u0111\u1ed9ng\r\n","status":1,"type":"product"},{"id":"1","name":"Gi\u00e0y th\u1ec3 thao","slug":"giay-the-thao","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y th\u1ec3 thao","status":1,"type":"product"},{"id":"2","name":"Gi\u00e0y c\u00f4ng s\u1edf","slug":"giay-cong-so","description":"Chuy\u00ean c\u00e1c lo\u1ea1i gi\u00e0y c\u00f4ng s\u1edf","status":1,"type":"product"},{"id":"3","name":"Gi\u00e0y sneakers","slug":"giay-sneakers","description":"C\u00e1c m\u1eabu sneakers hot nh\u1ea5t","status":1,"type":"product"}]

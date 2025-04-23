@@ -1,0 +1,42 @@
+[12-Apr-2025 13:34:00 UTC] Order Error: Unknown column 'shipping_name' in 'field list'
+[12-Apr-2025 13:34:00 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(50): mysqli->prepare('\n              ...')
+#1 {main}
+[12-Apr-2025 13:34:06 UTC] Order Error: Unknown column 'shipping_name' in 'field list'
+[12-Apr-2025 13:34:06 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(50): mysqli->prepare('\n              ...')
+#1 {main}
+[12-Apr-2025 13:34:11 UTC] Order Error: Unknown column 'shipping_name' in 'field list'
+[12-Apr-2025 13:34:11 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(50): mysqli->prepare('\n              ...')
+#1 {main}
+[12-Apr-2025 13:48:03 UTC] Order Error: Data truncated for column 'payment_method' at row 1
+[12-Apr-2025 13:48:03 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(60): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:26:04 UTC] Order Error: Data truncated for column 'payment_method' at row 1
+[12-Apr-2025 14:26:04 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(60): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:33:25 UTC] Order Error: Data truncated for column 'payment_method' at row 1
+[12-Apr-2025 14:33:25 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(60): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:37:56 UTC] Order Error: Cannot add or update a child row: a foreign key constraint fails (`shoe_store`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[12-Apr-2025 14:37:56 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(60): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:40:02 UTC] Order Error: Cannot add or update a child row: a foreign key constraint fails (`shoe_store`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[12-Apr-2025 14:40:02 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(60): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:42:23 UTC] Order Error: Cannot add or update a child row: a foreign key constraint fails (`shoe_store`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[12-Apr-2025 14:42:23 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(60): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:46:20 UTC] Order Error: Cannot add or update a child row: a foreign key constraint fails (`shoe_store`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[12-Apr-2025 14:46:20 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(75): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:46:25 UTC] Order Error: Cannot add or update a child row: a foreign key constraint fails (`shoe_store`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[12-Apr-2025 14:46:25 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(75): mysqli_stmt->execute()
+#1 {main}
+[12-Apr-2025 14:51:14 UTC] Order Error: Cannot add or update a child row: a foreign key constraint fails (`shoe_store`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[12-Apr-2025 14:51:14 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(75): mysqli_stmt->execute()
+#1 {main}
+[22-Apr-2025 20:44:32 UTC] Order Error: Unknown column 'shipping_name' in 'field list'
+[22-Apr-2025 20:44:32 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(50): mysqli->prepare('\n              ...')
+#1 {main}
+[22-Apr-2025 20:59:08 UTC] Order Error: Unknown column 'shipping_name' in 'field list'
+[22-Apr-2025 20:59:08 UTC] Order Error Stack Trace: #0 C:\laragon\www\lotso\client\process_order.php(50): mysqli->prepare('\n              ...')
+#1 {main}

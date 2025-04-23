@@ -1,0 +1,11 @@
+{
+    "name": "admin/lotso",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Lotso\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

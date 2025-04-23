@@ -1,0 +1,7 @@
+[12-Apr-2025 14:54:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 2
+[12-Apr-2025 15:20:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 2
+[12-Apr-2025 15:28:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 3
+[12-Apr-2025 15:33:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 3
+[12-Apr-2025 16:42:29 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 3
+[12-Apr-2025 16:45:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 3
+[12-Apr-2025 20:35:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\laragon\www\lotso\client\header.php on line 3
